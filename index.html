@@ -1,73 +1,76 @@
+
+
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sarkari Jobs - Government Job Portal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> sarkari job </title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #fff;
-      color: #000;
+      background: #f2f2f2;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: maroon;
-      color: white;
-      padding: 10px 20px;
+      background: #222;
+      color: #fff;
+      padding: 15px;
       text-align: center;
     }
-    main {
-      padding: 20px;
-    }
-    h2 {
-      color: maroon;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    ul li {
+    nav {
+      background: #444;
       padding: 10px;
-      border-bottom: 1px solid #ccc;
+      text-align: center;
     }
-    ul li a {
-      color: #0066cc;
+    nav a {
+      color: #fff;
+      margin: 10px;
       text-decoration: none;
       font-weight: bold;
     }
-    ul li a:hover {
-      text-decoration: underline;
+    .content {
+      padding: 20px;
     }
-    footer {
-      background-color: #eee;
-      text-align: center;
-      padding: 10px;
-      font-size: 0.9em;
+    .card {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Sarkari Jobs</h1>
-    <p>Get All Latest Government Job Updates</p>
+    <h1>Sarkari job</h1>
+    <p>Your One-Stop Site for Govt Jobs and Exams</p>
   </header>
+  
+  <nav>
+    <a href="index.html">Home  </a>
+  <a href="jobs.html">Jobs </a>
+     <a href="admit-cards.html">Admit Cards</a>
+    <a href="results.html">Results</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <main>
-    
-    <ul>
-      <li><a href="#">SSC CGL 2025 Online Form</a> – Last Date: 30 July 2025</li>
-      <li><a href="#">UPSC NDA II Recruitment</a> – Apply Now</li>
-      <li><a href="#">IBPS Clerk 2025 Notification</a> – Registration Open</li>
-      <li><a href="#">Railway RRB Group D Jobs</a> – Coming Soon</li>
-    </ul>
-  </main>
+  <div class="content">
+    <div class="card">
+      <h2>Latest Job: SSC CHSL 2025</h2>
+      <p>Apply Online for SSC CHSL 2025 - Last Date: 31 July 2025</p>
+      <a href="#">Read More</a>
+    </div>
 
-  <footer>
-    &copy; 2025 Sarkari Jobs | Designed for job seekers
-  </footer>
+    <div class="card">
+      <h2>UPSC Civil Services 2025</h2>
+      <p>UPSC Prelims 2025 Notification Out - Apply Now</p>
+      <a href="#">Read More</a>
+    </div>
 
+    <!-- Add more cards for other jobs -->
+  </div>
 </body>
 </html>
