@@ -1,86 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>All Current Jobs - Sarkari Jobs</title>
+  <meta charset="UTF-8" />
+  <title>All Government Exams</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 0;
+      background: #f4f4f4;
+      padding: 30px;
     }
-    header {
-      background: #003366;
-      color: white;
-      padding: 15px;
+    h1 {
       text-align: center;
+      color: #004080;
     }
-    h2 {
-      text-align: center;
-      color: #333;
-      margin-top: 20px;
-    }
-    .job-list {
-      max-width: 800px;
-      margin: 20px auto;
+    table {
+      width: 100%;
       background: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      padding: 20px;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px #ccc;
+      margin-top: 30px;
     }
-    .job-item {
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
+    th, td {
+      padding: 15px;
+      border: 1px solid #ddd;
+      text-align: left;
     }
-    .job-item:last-child {
-      border-bottom: none;
+    th {
+      background-color: #004080;
+      color: white;
     }
-    .job-title {
-      font-weight: bold;
-      color: #003366;
-    }
-    .job-link {
+    .apply-btn {
+      background: #28a745;
+      color: white;
+      padding: 8px 12px;
       text-decoration: none;
-      color: #007bff;
+      border-radius: 4px;
     }
-    .job-link:hover {
-      text-decoration: underline;
+    .apply-btn:hover {
+      background: #1e7e34;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Sarkari Jobs 📝</h1>
-  </header>
+  <h1>All Government Exams</h1>
 
-  <h2>All Current Application Forms</h2>
+  <table>
+    <tr>
+      <th>Exam Name</th>
+      <th>Post Date</th>
+      <th>Last Date</th>
+      <th>Apply Link</th>
+    </tr>
 
-  <div class="job-list">
-    <div class="job-item">
-      <div class="job-title">UPSC NDA II Online Form 2025</div>
-      <tr>
-  <td class="job-title">UPSC NDA II Recruitment 2025</td>
-  <td class="apply-link"><a href="/Exams index.html">View Details</a></td>
-      </tr>
-      <a class="job-link" href="https://example.com/nda-2025" target="_blank">Apply Now</a>
-    </div>
-    <div class="job-item">
-      <div class="job-title">SSC CHSL 2025 Online Form</div>
-      <a class="job-link" href="https://example.com/ssc-chsl-2025" target="_blank">Apply Now</a>
-    </div>
-    <div class="job-item">
-      <div class="job-title">IBPS PO 2025 Recruitment</div>
-      <a class="job-link" href="https://example.com/ibps-po-2025" target="_blank">Apply Now</a>
-    </div>
-    <div class="job-item">
-      <div class="job-title">Indian Navy SSR 2025</div>
-      <a class="job-link" href="https://example.com/navy-ssr-2025" target="_blank">Apply Now</a>
-    </div>
-    <!-- Add more job listings here -->
-  </div>
+    <tr>
+      <td>UPSC NDA II Recruitment 2025</td>
+      <td>15 July 2025</td>
+      <td>10 August 2025</td>
+      <td><a class="apply-btn" href="UPSC-NDA-II-2025.html" target="_blank">Apply Now</a></td>
+    </tr>
+
+    <tr>
+      <td>IBPS PO Recruitment 2025</td>
+      <td>10 July 2025</td>
+      <td>1 August 2025</td>
+      <td><a class="apply-btn" href="https://ibps.in/" target="_blank">Apply Now</a></td>
+    </tr>
+
+    <!-- Add more rows like this as needed -->
+  </table>
 
 </body>
 </html>
