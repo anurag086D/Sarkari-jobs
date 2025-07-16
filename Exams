@@ -1,1 +1,16 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exams</title>
+</head>
+<body>
+  <h1>All Government Exams</h1>
+  <ul>
+    <li>UPSC Exam</li>
+    <li>SSC CGL</li>
+    <li>Railway RRB</li>
+    <li>Bank PO</li>
+  </ul>
+</body>
+</html>
